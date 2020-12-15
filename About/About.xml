@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RJWNLPatch</name>
+  <author>Zephyr</author>
+  <url>
+  </url>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <packageId>Zephyr.RJWNLPatch</packageId>
+  <description>
+    Add RJW OTY Patch to NL Compatible Body
+    Load order :
+    - rimnudeworld
+    - OTY_NUDE
+    - OTHER OTY_PATCH
+    - This mod
+    - NL Compatible Body
+
+    Note : Due to female base body have valouptus size, RIP micro and small breast
+
+  </description>
+  <loadAfter>
+		<li>brrainz.harmony</li>
+		<li>shauaputa.rimnudeworld</li>
+    <li>OTY_NUDE Unofficial Update</li>
+	</loadAfter>
+</ModMetaData>

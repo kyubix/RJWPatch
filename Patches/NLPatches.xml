@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Breasts/FeaturelessLeft"]/hediffGraphics/Breasts</xpath>
+		<value>
+            
+                <Breasts>
+                    <path>Breasts/breasts_micro_left</path>
+                    <severity>
+                        <a1.6>Breasts/breasts_backb_left</a1.6>
+                        <a1.01>Breasts/breasts_oversized_left</a1.01>
+                        <a0.8>Breasts/breasts_huge_left</a0.8>
+                        <a0.6>Breasts/breasts_large_left</a0.6>
+                        <a0.4>Breasts/breasts_average_left</a0.4>									
+                        <a0.2>Breasts/breasts_average_left</a0.2>
+                        <a0.01>Breasts/breasts_average_left</a0.01>
+                    </severity>
+                </Breasts>
+               
+			
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Breasts/FeaturelessLeft"]/offsets</xpath>
+		<value>
+            
+			 <offsets>
+                <south>
+                    <bodyTypes>
+                        <Male>(-0.3920, 0.2390)</Male>
+                        <Female>(-0.4340, 0.2130)</Female>
+                        <Fat>(-0.2560, 0.2190)</Fat>
+                        <Thin>(-0.4740, 0.2160)</Thin>
+                        <Hulk>(-0.3150, 0.2130)</Hulk>
+                    </bodyTypes>
+                </south>
+                <north>
+                    <bodyTypes>
+                        <Male>(0.02787782,0.5)</Male>
+                        <Female>(0.0050, 0.5530)</Female>
+                        <Fat>(0.0570, 0.7140)</Fat>
+                        <Thin>(-0.0901, 0.5710)</Thin>
+                        <Hulk>(0.0770, 0.6700)</Hulk>
+                    </bodyTypes>
+                </north>
+                <east>
+                    <bodyTypes>
+                        <Male>(-0.4440, 0.2230)</Male>
+                        <Female>(-0.4210, 0.2200)</Female>
+                        <Fat>(-0.5820, 0.2610)</Fat>
+                        <Thin>(-0.3670, 0.2120)</Thin>
+                        <Hulk>(-0.4870, 0.1660)</Hulk>
+                    </bodyTypes>
+                </east>
+            </offsets>
+		</value>
+	</Operation>
+
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Breasts/FeaturelessRight"]/hediffGraphics/Breasts</xpath>
+		<value>
+            
+                <Breasts>
+                    <path>Breasts/breasts_micro_right</path>
+                    <severity>
+                        <a1.6>Breasts/breasts_backb_right</a1.6>
+                        <a1.01>Breasts/breasts_oversized_right</a1.01>
+                        <a0.8>Breasts/breasts_huge_right</a0.8>
+                        <a0.6>Breasts/breasts_large_right</a0.6>
+                        <a0.4>Breasts/breasts_average_right</a0.4>									
+                        <a0.2>Breasts/breasts_average_right</a0.2>
+                        <a0.01>Breasts/breasts_average_right</a0.01>
+                    </severity>
+                </Breasts>
+               
+			
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Breasts/FeaturelessRight"]/offsets</xpath>
+		<value>
+            
+			 <offsets>
+                <south>
+                    <bodyTypes>
+                        <Male>(-0.4446, 0.2390)</Male>
+                        <Female>(-0.4340, 0.2130)</Female>
+                        <Fat>(-0.6113, 0.2190)</Fat>
+                        <Thin>(-0.3630, 0.2160)</Thin>
+                        <Hulk>(-0.5387, 0.2130)</Hulk>
+                    </bodyTypes>
+                </south>
+                <north>
+                    <bodyTypes>
+                        <Male>(0.02787782,0.5)</Male>
+                        <Female>(0.0050, 0.5530)</Female>
+                        <Fat>(-0.1141, 0.7140)</Fat>
+                        <Thin>(0.0810, 0.5710)</Thin>
+                        <Hulk>(-0.0546, 0.6700)</Hulk>
+                    </bodyTypes>
+                </north>
+                <east>
+                    <bodyTypes>
+                        <Male>(-0.518,0.1913)</Male>
+                        <Female>(-0.518,0.1913)</Female>
+                        <Fat>(-0.5820, 0.2610)</Fat>
+                        <Thin>(-0.409,0.22)</Thin>
+                        <Hulk>(-0.6,0.093)</Hulk>
+                    </bodyTypes>
+                </east>
+            </offsets>
+		</value>
+	</Operation>
+
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Genitals/FeaturelessCrotch"]/offsets</xpath>
+		<value>
+			<offsets>
+				<south>
+					<bodyTypes>
+						<Male>(-0.4320, -0.1800)</Male>
+						<Female>(-0.4190, -0.1270)</Female>
+						<Fat>(-0.4320, -0.2930)</Fat>
+						<Thin>(-0.4210, -0.1270)</Thin>
+						<Hulk>(-0.4210, -0.2720)</Hulk>
+					</bodyTypes>
+				</south>
+				<north>
+					<bodyTypes>
+						<Male>(-0.006430868,0.082)</Male>
+						<Female>(-0.0140, 0.2080)</Female>
+						<Fat>(-0.0160, 0.0250)</Fat>
+						<Thin>(-0.0095, 0.1960)</Thin>
+						<Hulk>(-0.0100, -0.0740)</Hulk>
+					</bodyTypes>
+				</north>
+				<east>
+					<bodyTypes>
+						<Male>(-0.4750, -0.1551)</Male>
+						<Female>(-0.4350, -0.1261)</Female>
+						<Fat>(-0.4900, -0.3491)</Fat>
+						<Thin>((-0.4220, -0.1601)</Thin>
+						<Hulk>(-0.4340, -0.3101)</Hulk>
+					</bodyTypes>
+				</east>
+			</offsets>
+		</value>
+	</Operation>
+
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Genitals/Testicles/FeaturelessTesticles"]/offsets</xpath>
+		<value>
+			<offsets>
+				<south>
+					<bodyTypes>
+						<Male>(-0.4260, -0.1620)</Male>
+						<Female>(-0.4190, -0.1270)</Female>
+						<Fat>(-0.4320, -0.2930)</Fat>
+						<Thin>(-0.4210, -0.1270)</Thin>
+						<Hulk>(-0.4210, -0.2720)</Hulk>
+					</bodyTypes>
+				</south>
+				<north>
+					<bodyTypes>
+						<Male>(-0.0100, 0.1580)</Male>
+						<Female>(-0.0140, 0.2080)</Female>
+						<Fat>(-0.0160, 0.0250)</Fat>
+						<Thin>(-0.0095, 0.1960)</Thin>
+						<Hulk>(-0.0100, -0.0740)</Hulk>
+					</bodyTypes>
+				</north>
+				<east>
+					<bodyTypes>
+						<Male>(-0.49,-0.1901)</Male>
+						<Female>(-0.3780, 0.2510)</Female>
+						<Fat>(-0.6634,-0.2793)</Fat>
+						<Thin>(-0.383,-0.1908)</Thin>
+						<Hulk>(-0.3832,-0.4262)</Hulk>
+					</bodyTypes>
+				</east>
+			</offsets>
+		</value>
+	</Operation>
+
+    <!-- <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Genitals/FeaturelessCrotch"]/hediffGraphics/Penis/offsets</xpath>
+		<value>
+			<offsets>
+				<south>
+					<bodyTypes>
+						<Male>(-0.4900, -0.1901)</Male>
+						<Female>(-0.4190, -0.1270)</Female>
+						<Fat>(-0.4320, -0.2930)</Fat>
+						<Thin>(-0.4210, -0.1270)</Thin>
+						<Hulk>(-0.4210, -0.2720)</Hulk>
+					</bodyTypes>
+				</south>
+				<north>
+					<bodyTypes>
+						<Male>(-0.0100, 0.1580)</Male>
+						<Female>(-0.0140, 0.2080)</Female>
+						<Fat>(-0.0160, 0.0250)</Fat>
+						<Thin>(-0.0095, 0.1960)</Thin>
+						<Hulk>(-0.0100, -0.0740)</Hulk>
+					</bodyTypes>
+				</north>
+				<east>
+					<bodyTypes>
+						<Male>(-0.5130, 0.2300)</Male>
+						<Female>(-0.3780, 0.2510)</Female>
+						<Fat>(-0.6634,-0.2793)</Fat>
+						<Thin>(-0.383,-0.1908)</Thin>
+						<Hulk>(-0.3832,-0.4262)</Hulk>
+					</bodyTypes>
+				</east>
+			</offsets>
+		</value>
+	</Operation> -->
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Anus/FeaturelessAnus"]/offsets</xpath>
+        <value>
+            <offsets>
+                <south>
+                    <bodyTypes>
+                        <Male>(-0.4198691,-0.2235)</Male>
+                        <Female>(-0.4210, 0.3740)</Female>
+                        <Fat>(-0.4199,-0.2834)</Fat>
+                        <Thin>(-0.4199,-0.2239)</Thin>
+                        <Hulk>(-0.4199,-0.4363)</Hulk>
+                    </bodyTypes>
+                </south>
+                <north>
+                    <bodyTypes>
+                        <Male>(-0.0060, 0.6680)</Male>
+                        <Female>(-0.0060, 0.7030)</Female>
+                        <Fat>(-0.0080, 0.5330)</Fat>
+                        <Thin>(-0.0020, 0.6780)</Thin>
+                        <Hulk>(-0.0010, 0.4610)</Hulk>
+                    </bodyTypes>
+                </north>
+                <east>
+                    <bodyTypes>
+                        <Male>(-0.49,-0.1901)</Male>
+                        <Female>(-0.3780, 0.2510)</Female>
+                        <Fat>(-0.6634,-0.2793)</Fat>
+                        <Thin>(-0.383,-0.1908)</Thin>
+                        <Hulk>(-0.3832,-0.4262)</Hulk>
+                    </bodyTypes>
+                </east>
+            </offsets>
+        </value>
+	</Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Genitals/Pubes/Pubes"]/offsets</xpath>
+        <value>
+            <offsets>
+                <south>
+                    <bodyTypes>
+                        <Male>(-0.4250, 0.2010)</Male>
+                        <Female>(-0.4150, 0.2160)</Female>
+                        <Fat>(-0.4350, 0.0400)</Fat>
+                        <Thin>(-0.4210, 0.2090)</Thin>
+                        <Hulk>(-0.4200, 0.0940)</Hulk>
+                    </bodyTypes>
+                </south>
+                <north>
+                    <bodyTypes>
+                        <Male>(-0.006430868,0.082)</Male>
+                        <Female>(-0.0080, 0.7190)</Female>
+                        <Fat>(-0.006,0.0291)</Fat>
+                        <Thin>(-0.01246174,0.087)</Thin>
+                        <Hulk>(-0.0064308,-0.1109)</Hulk>
+                    </bodyTypes>
+                </north>
+                <east>
+                    <bodyTypes>
+                        <Male>(-0.4730, 0.1680)</Male>
+                        <Female>(-0.4270, 0.3510)</Female>
+                        <Fat>(-0.4960, 0.0950)</Fat>
+                        <Thin>(-0.4110, 0.3000)</Thin>
+                        <Hulk>(-0.3960, 0.0480)</Hulk>
+                    </bodyTypes>
+                </east>
+            </offsets>
+        </value>
+	</Operation>
+
+</Patch>
