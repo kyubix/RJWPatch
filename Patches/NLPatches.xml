@@ -183,41 +183,6 @@
 		</value>
 	</Operation>
 
-    <!-- <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Genitals/FeaturelessCrotch"]/hediffGraphics/Penis/offsets</xpath>
-		<value>
-			<offsets>
-				<south>
-					<bodyTypes>
-						<Male>(-0.4900, -0.1901)</Male>
-						<Female>(-0.4190, -0.1270)</Female>
-						<Fat>(-0.4320, -0.2930)</Fat>
-						<Thin>(-0.4210, -0.1270)</Thin>
-						<Hulk>(-0.4210, -0.2720)</Hulk>
-					</bodyTypes>
-				</south>
-				<north>
-					<bodyTypes>
-						<Male>(-0.0100, 0.1580)</Male>
-						<Female>(-0.0140, 0.2080)</Female>
-						<Fat>(-0.0160, 0.0250)</Fat>
-						<Thin>(-0.0095, 0.1960)</Thin>
-						<Hulk>(-0.0100, -0.0740)</Hulk>
-					</bodyTypes>
-				</north>
-				<east>
-					<bodyTypes>
-						<Male>(-0.5130, 0.2300)</Male>
-						<Female>(-0.3780, 0.2510)</Female>
-						<Fat>(-0.6634,-0.2793)</Fat>
-						<Thin>(-0.383,-0.1908)</Thin>
-						<Hulk>(-0.3832,-0.4262)</Hulk>
-					</bodyTypes>
-				</east>
-			</offsets>
-		</value>
-	</Operation> -->
-
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Anus/FeaturelessAnus"]/offsets</xpath>
         <value>
@@ -286,6 +251,72 @@
                 </east>
             </offsets>
         </value>
+	</Operation>
+
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Belly/FeaturelessBelly"]/hediffGraphics</xpath>
+		<value>
+            <hediffGraphics>
+                <RJW_pregnancy>
+                    <path>Belly/FeaturelessBelly</path>
+                    <severity>
+                        <a2.0>Belly/BellyBulge_huge</a2.0>
+                        <a0.76>Belly/BellyBulge_huge</a0.76>
+                        <a0.55>Belly/BellyBulge_large</a0.55>
+                        <a0.333>Belly/BellyBulge_medium</a0.333>
+                        <a0.10>Belly/BellyBulge_small</a0.10>
+                        <a0.00>Belly/FeaturelessBelly</a0.00>
+                    </severity>
+                </RJW_pregnancy>
+                <RNW_BellyBulge>
+                    <path>Belly/FeaturelessBelly</path>
+                    <severity>
+                        <a2.0>Belly/BellyBulge_huge</a2.0>
+                        <a0.76>Belly/BellyBulge_huge</a0.76>
+                        <a0.55>Belly/BellyBulge_large</a0.55>
+                        <a0.333>Belly/BellyBulge_medium</a0.333>
+                        <a0.10>Belly/BellyBulge_small</a0.10>
+                        <a0.00>Belly/FeaturelessBelly</a0.00>
+                    </severity>
+                </RNW_BellyBulge>
+            </hediffGraphics>
+		</value>
+	</Operation>
+   
+    <Operation Class = "PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Belly/FeaturelessBelly"]/offsets</xpath>								
+		<value>
+				
+                <offsets>
+                    <south>
+                        <bodyTypes>
+                            <Male>(-0.4210, 0.2230)</Male>
+                            <Female>(-0.4170, 0.2140)</Female>
+                            <Fat>(-0.4280, 0.2770)</Fat>
+                            <Thin>(-0.4240, 0.2060)</Thin>
+                            <Hulk>(-0.4210, 0.2230)</Hulk>
+                        </bodyTypes>
+                    </south>
+                    <north>
+                        <bodyTypes>
+                            <Male>(0.002,0.6)</Male>
+                            <Female>(0.002,0.570)</Female>
+                            <Fat>(-0.002,0.6)</Fat>
+                            <Thin>(-0.008,0.632)</Thin>
+                            <Hulk>(-0.002,0.6)</Hulk>
+                        </bodyTypes>  
+                    </north>
+                    <east>
+                        <bodyTypes>
+                            <Male>(-0.4180, 0.2090)</Male>
+                            <Female>(-0.4160, 0.2170)</Female>
+                            <Fat>(-0.4020, 0.2150)</Fat>
+                            <Thin>(-0.4080, 0.2130)</Thin>
+                            <Hulk>(-0.4150, 0.2170)</Hulk>
+                        </bodyTypes>
+                    </east>
+                </offsets>
+		</value>
 	</Operation>
 
 </Patch>
