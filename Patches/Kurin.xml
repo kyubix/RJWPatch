@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Breasts/FeaturelessLeft"]/hediffGraphics/Breasts</xpath>
+		<value>
+            
+                <Breasts>
+                    <path>Breasts/breasts_micro_left</path>
+                    <severity>
+                        <a1.6>Breasts/breasts_backb_left</a1.6>
+                        <a1.01>Breasts/breasts_oversized_left</a1.01>
+                        <a0.8>Breasts/breasts_huge_left</a0.8>
+                        <a0.6>Breasts/breasts_large_left</a0.6>
+                        <a0.4>Breasts/breasts_average_left</a0.4>									
+                        <a0.2>Breasts/breasts_average_left</a0.2>
+                        <a0.01>Breasts/breasts_average_left</a0.01>
+                    </severity>
+                </Breasts>
+               
+			
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Breasts/FeaturelessLeft"]/offsets</xpath>
+		<value>
+            
+			 <offsets>
+                <south>
+                    <bodyTypes>
+                        <Female>(-0.4137, 0.3010)</Female>
+                    </bodyTypes>
+                </south>
+                <north>
+                    <bodyTypes>
+                        <Female>(-0.0670, 0.6880)</Female>
+                    </bodyTypes>
+                </north>
+                <east>
+                    <bodyTypes>
+                        <!-- <Female>(-0.3450, 0.3470)</Female> -->
+                        <Female>(-0.3880, 0.2710)</Female>
+                    </bodyTypes>
+                </east>
+            </offsets>
+		</value>
+	</Operation>
+
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Breasts/FeaturelessRight"]/hediffGraphics/Breasts</xpath>
+		<value>
+            
+                <Breasts>
+                    <path>Breasts/breasts_micro_right</path>
+                    <severity>
+                        <a1.6>Breasts/breasts_backb_right</a1.6>
+                        <a1.01>Breasts/breasts_oversized_right</a1.01>
+                        <a0.8>Breasts/breasts_huge_right</a0.8>
+                        <a0.6>Breasts/breasts_large_right</a0.6>
+                        <a0.4>Breasts/breasts_average_right</a0.4>									
+                        <a0.2>Breasts/breasts_average_right</a0.2>
+                        <a0.01>Breasts/breasts_average_right</a0.01>
+                    </severity>
+                </Breasts>
+               
+			
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Breasts/FeaturelessRight"]/offsets</xpath>
+		<value>
+            
+			 <offsets>
+                <south>
+                    <bodyTypes>
+                        <Female>(-0.4137, 0.3010)</Female>
+                    </bodyTypes>
+                </south>
+                <north>
+                    <bodyTypes>
+                        <Female>(0.0590, 0.6880)</Female>
+                    </bodyTypes>
+                </north>
+                <east>
+                    <bodyTypes>
+                        <Female>(-0.3290, 0.3470)</Female>
+                    </bodyTypes>
+                </east>
+            </offsets>
+		</value>
+	</Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Genitals/Pubes/Pubes"]/offsets</xpath>
+        <value>
+            <offsets>
+                <south>
+                    <bodyTypes>
+                        <Female>(-0.4170, 0.3160)</Female>
+                    </bodyTypes>
+                </south>
+                <north>
+                    <bodyTypes>
+                        <Female>(-0.0080, 0.7190)</Female>
+                    </bodyTypes>
+                </north>
+                <east>
+                    <bodyTypes>
+                        <Female>(-0.4460, 0.4370)</Female>
+                    </bodyTypes>
+                </east>
+            </offsets>
+        </value>
+	</Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Genitals/FeaturelessCrotch"]/offsets</xpath>
+        <value>
+            <offsets>
+                <south>
+                    <bodyTypes>
+                        <Female>(-0.4160, -0.0340)</Female>
+                    </bodyTypes>
+                </south>
+                <north>
+                    <bodyTypes>
+                        <Female>(-0.0030, 0.2610)</Female>
+                    </bodyTypes>
+                </north>
+                <east>
+                    <bodyTypes>
+                        <Female>(-0.4410, -0.0300)</Female>
+                    </bodyTypes>
+                </east>
+            </offsets>
+        </value>
+	</Operation>
+
+</Patch>

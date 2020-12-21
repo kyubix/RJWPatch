@@ -18,7 +18,15 @@
     - NL Compatible Body
 
     Note : Due to female base body have valouptus size, RIP micro and small breast
-
+    Log:
+    v 0.4 - Add OTY Texture for Kurin
+    v 0.3 - Add OTY Texture for Ancient Race
+    v 0.2 - Add OTY Texture for NL Compatible Body 2
+    v 0.1 - Init Project - Apply OTY Texture, editing and modify several OTY Texture for NL Compatible Offset Purpose
+    
+    Todo:
+    - Some texture need to be redrawn
+    - Modify some apparel 
   </description>
   <loadAfter>
 		<li>brrainz.harmony</li>
