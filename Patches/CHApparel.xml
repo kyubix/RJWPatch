@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CHStringBikini"]/apparel/wornGraphicPath</xpath>
+		<value>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CHStringBikini/CHStringBikini</wornGraphicPath>
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CHSwimsuit"]/apparel/wornGraphicPath</xpath>
+		<value>
+             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CHSwimsuit/CHSwimsuit</wornGraphicPath>
+		</value>
+	</Operation>
+</Patch>

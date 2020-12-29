@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Patch>
+    
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Breasts/FeaturelessLeft"]/hediffGraphics/Breasts</xpath>
 		<value>
@@ -33,6 +34,7 @@
                         <Fat>(-0.2560, 0.2190)</Fat>
                         <Thin>(-0.4740, 0.2160)</Thin>
                         <Hulk>(-0.3150, 0.2130)</Hulk>
+                        <Newborn>(0,0)</Newborn>
                     </bodyTypes>
                 </south>
                 <north>
@@ -42,6 +44,7 @@
                         <Fat>(0.0570, 0.7140)</Fat>
                         <Thin>(-0.0901, 0.5710)</Thin>
                         <Hulk>(0.0770, 0.6700)</Hulk>
+                        <Newborn>(0,0)</Newborn>
                     </bodyTypes>
                 </north>
                 <east>
@@ -51,6 +54,7 @@
                         <Fat>(-0.5820, 0.2610)</Fat>
                         <Thin>(-0.3670, 0.2120)</Thin>
                         <Hulk>(-0.4870, 0.1660)</Hulk>
+                        <Newborn>(0,0)</Newborn>
                     </bodyTypes>
                 </east>
             </offsets>
@@ -318,5 +322,7 @@
                 </offsets>
 		</value>
 	</Operation>
+
+ 
 
 </Patch>

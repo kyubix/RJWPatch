@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/BodyTypeDef[defName="Newborn"]/headOffset</xpath>
+		<value>
+            <headOffset>(0.09, 0.08)</headOffset>
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/BodyTypeDef[defName="ToddlerUpright"]/headOffset</xpath>
+		<value>
+            <headOffset>(0.09, 0.08)</headOffset>
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/BodyTypeDef[defName="Toddler"]/headOffset</xpath>
+		<value>
+            <headOffset>(0.09, 0.05)</headOffset>
+		</value>
+	</Operation>
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/BodyTypeDef[defName="Child"]/headOffset</xpath>
+		<value>
+           <headOffset>(0.09, 0.34)</headOffset>
+            
+		</value>
+	</Operation>
+</Patch>
